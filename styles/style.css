@@ -27,7 +27,7 @@ body {
 
 .clock-container {
     background-color: var(--container-bg);
-    padding: 2rem;
+    padding: 0.89rem;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
     text-align: center;
