@@ -27,12 +27,12 @@ body {
 
 .clock-container {
     background-color: var(--container-bg);
-    padding: 0.89rem;
+    padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
     text-align: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
 }
 
@@ -111,10 +111,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     opacity: 1;
     transition: opacity 0.3s ease;
     flex-wrap: wrap;
+    max-width: 450px;
 }
 
 .controls.hidden {
